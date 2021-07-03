@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+</head>
+<body>
+ <div class="container">
+   <div class="box1">
+     <h2>TO-DO LIST</h2>
+   </div>
+   <div class="box2">
+     Add new task: <input type="text" id="newtask"> <button onclick="addtask()">Add task</button>
+   </div>  
+   <div class="tasks">
+   <div class="box3">
+     <h3>
+       INCOMPLETE TASKS
+     </h3>
+     <hr>
+     <div id="incomplete_tasks">
+       
+     </div>
+   </div>
+   <div class="box4">
+     <h3>COMPLETED TASKS</h3>     
+     <hr>
+     <div>
+       <div id="completed_tasks">
+     </div>
+       <div id="delete_completed">
+         <button onclick="delete_task()">Delete Tasks</button>
+     </div>
+     </div>     
+   </div>
+   <div>
+   </div>
+   </div>
+ </div>  
+</body>
+</html>
